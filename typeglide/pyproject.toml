@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "typeglide"
+version = "0.3.3"
+description = "A smooth typewriter text effect library for Python. Works with tkinter too! Made by dakshu."
+readme = "README.md"
+requires-python = ">=3.11.14"
+authors = [
+    { name="Dakshu", email="dakshumail98@gmail.com" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["typeglide"]
